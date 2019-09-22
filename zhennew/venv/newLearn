@@ -1,0 +1,22 @@
+from math import *
+print(pow(2,2))
+print("Hellow World")
+
+name = input("what is your name: ")
+print("hello, "+ name +"!")
+
+frinds = ["zhen","kevin","alex","christine"]
+print(len(frinds))
+print(frinds[1:])
+print(frinds[0-len(frinds)])
+
+zTuple = (0,1,2)
+z=[(1,8),(2,6)]
+print((z[0])[0])
+
+
+def say_hi(name):
+    print("Hello "+ name)
+
+name = input("what is your name: ")
+say_hi(name)
